@@ -1,7 +1,7 @@
 package com.epam;
 
 public enum Animal {
-	DOG("Woof!"), CAT("Meow!"), DUCK("Quack!");
+	DOG("Woof!"), CAT("Meow!"), DUCK("Quack!"), HORSE("Nyihaha");
 
 	String voice;
 
