@@ -1,25 +1,23 @@
-package com.epam;
-
+package com;
+import com.Farm;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-class HorseFarmTest {
-    private HorseFarm underTest;
+class FarmTest {
+    private Farm underTest;
 
     @BeforeEach
     void setUp() {
-        underTest = new HorseFarm();
+        underTest = new Farm();
     }
 
     @Test
-    void getAnimals() {
+    void sing() {
         String expected = "Woof!\n" +
                 "Woof!\n" +
                 "Woof!\n" +
                 "Meow!\n" +
-                "Quack!\n" +
-                "Nyihaha\n";
+                "Quack!\n";
 
         String actual = underTest.sing();
 

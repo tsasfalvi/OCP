@@ -1,4 +1,4 @@
-package com.epam;
+package com;
 
 import java.util.Arrays;
 import java.util.Collections;

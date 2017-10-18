@@ -1,4 +1,4 @@
-package com.epam;
+package com;
 
 public enum Animal {
 	DOG("Woof!"), CAT("Meow!"), DUCK("Quack!"), HORSE("Nyihaha");
